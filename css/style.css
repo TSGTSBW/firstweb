@@ -24,3 +24,16 @@ a{
     background-color: #adffb3;
     color: #00be10;
 }
+form{
+    margin-top: 50px;
+}
+label{
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+#submit{
+    padding: 10px 10px;
+    color: #00be10;
+}
