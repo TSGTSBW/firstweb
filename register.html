@@ -8,26 +8,82 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <style>
-    a.b{
+    /* a.b{
         background-color: #fda79b;
         color: #ff3300;
-    }
+    } */
 </style>
 <body>
-    <a href="index.html" id="index">INDEX</a>
+    <!-- <a href="index.html" id="index">INDEX</a>
     <a href="register.html" class="reg">REGISTER</a>
     <a href="table.html" style="background-color: #99dfff; color: #0084ff;">TABLE</a>
-    <a class="b" href="hello.html">HELLO</a>
-    <form action="">
-        <label for="name">First Name : </label>
-        <input type="text" ><br>
-        <label for="name">Last Name : </label>
-        <input type="text" ><br>
-        <label for="pass">Password</label>
-        <input type="password"><br>
-        <label for="email">E-mail</label>
-        <input type="email"><br>
-        <button><a href="#" type="submit"></a>ENTER</a></button>
-    </form>
+    <a class="b" href="hello.html">HELLO</a> -->
+    <center>
+        <table>
+            <form action="">
+                <tr>
+                    <th colspan="2"><h1>REGISTER</h1></th>
+                </tr>
+                <tr>
+                    <td>ชื่อ </td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td>นามสกุล  </td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td>E-mail </td>
+                    <td><input type="email" ></td>
+                </tr>
+                <tr>
+                    <td>วันเกิด </td>
+                    <td><input type="date" ></td>
+                </tr>
+                <tr>
+                    <td>น้ำหนัก </td>
+                    <td><input type="number" ></td>
+                </tr>
+                <tr>
+                    <td>ส่วนสูง </td>
+                    <td><input type="number" ></td>
+                </tr>
+                <tr>
+                    <td>รูปภาพ </td>
+                    <td><input type="file" ></td>
+                </tr>
+                <tr>
+                    <td>รหัสผ่าน </td>
+                    <td><input type="password" ></td>
+                </tr>
+                <tr>
+                    <td>เพศ </td>
+                    <td>
+                        <input type="radio" name="sex" value="Male"><label for="">ชาย</label>
+                        <input type="radio" name="sex" value="Female"><label for="">หญิง</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>สีที่ชอบ </td>
+                    <td><input type="color" ></td>
+                </tr>
+                <tr>
+                    <td>ประเทศที่ชอบ </td>
+                    <td>
+                        <input type="checkbox" name="box1"><label for="">Japan</label>
+                        <input type="checkbox" name="box2"><label for="">France</label>
+                        <input type="checkbox" name="box3"><label for="">China</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </center>
 </body>
 </html>
