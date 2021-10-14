@@ -25,7 +25,7 @@ header{
 #sec_wrapper{
     display: -webkit-box;
     -webkit-box-orient: horizontal;
-    border: 5px solid rgb(31, 65, 255);
+    border: 5px solid rgb(31, 255, 117);
 }
 section{
     border: 2px solid blue;
@@ -42,7 +42,7 @@ article{
     padding: 10px;
     margin-bottom: 10px;
     font-size: 12px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 221);
 }
 article header{
     background: white;
